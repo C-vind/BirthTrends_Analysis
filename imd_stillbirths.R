@@ -145,5 +145,5 @@ ggscatter(
 		axis.text.x = element_text(face = "bold", size = 18),
 		axis.title.y = element_text(size = 22, margin = margin(r = 15)),
 		axis.text.y = element_text(face = "bold", size = 18),
-		plot.margin = margin(l = 20, r = 0, b = 25, t = 35)
+		plot.margin = margin(l = 20, r = 0, b = 20, t = 35)
 	)
