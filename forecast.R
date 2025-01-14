@@ -112,8 +112,8 @@ monthlyLiveBirthsTS <- ts(as.vector(t(monthlyLiveBirthsTS)), start = 1995, frequ
 plot(tesForecast, main = "", xaxt = "n")
 title("Comparison between actual and predicted live births data", cex.main = 2.2)
 axis(1, at = seq(1995, 2024, by = 1), las = 2)
-lines(tesForecast$mean, col = "#BF2F24", lwd = 2)
 lines(monthlyLiveBirthsTestTS, col = "#4a9edf", lwd = 3)
+lines(tesForecast$mean, col = "#BF2F24", lwd = 2)
 legend(
 	"topright",
 	cex = 1.2,
