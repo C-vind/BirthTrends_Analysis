@@ -49,7 +49,7 @@ Downward trends were observed in live births happening from mothers aged below 3
 ![Box plot](https://github.com/user-attachments/assets/8979eb44-09a1-4fb8-842a-0b076faadc17)
 The plots revealed a linear pattern, implying that the median of stillbirth incidences was highest in areas with low IMD (more deprived) and lowest in areas with high IMD (less deprived).
 
-![Correlation](https://github.com/user-attachments/assets/fce57fd2-2ce4-42ca-a470-702687bb06bd)
+![Correlation](https://github.com/user-attachments/assets/f255345f-f3c8-47d5-bfb0-9cfba31e9d33)
 There was a significant, very strong negative correlation between the IMD and the incidence of stillbirths, r = -0.76, p < 0.001. Provided that the IMD maintains an inverse relation with deprivation levels, it was concluded that as deprivations increased, stillbirth counts were also increased.
 <br/>
 <br/>
