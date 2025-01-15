@@ -3,21 +3,21 @@
 # Import required libraries
 library(tidyverse)
 library(readxl)
-library(MetBrewer)
 library(ggstatsplot)
+library(MetBrewer)
 library(ggpubr)
 
 # Load data from file 2023birthregistrations.xlsx from sheet "Table_9" and start read the data from the sixth row
 # This is England and Wales data in 2023
-imdStillBirth2023EW <- readxl::read_excel("2023birthregistrations.xlsx", sheet = "Table_9", skip = 5)
+imdStillBirth2023EW <- read_excel("2023birthregistrations.xlsx", sheet = "Table_9", skip = 5)
 
 # Load data from file cim2022deathcohortworkbook.xlsx from sheet "21" and start read the data from the eight row
 # This is England data from 2010 to 2022
-imdStillBirth2022E <- readxl::read_excel("cim2022deathcohortworkbook.xlsx", sheet = "21", skip = 7)
+imdStillBirth2022E <- read_excel("cim2022deathcohortworkbook.xlsx", sheet = "21", skip = 7)
 
 # Load data from file cim2022deathcohortworkbook.xlsx from sheet "25" and start read the data from the tenth row
 # This is Wales data from 2010 to 2022
-imdStillBirth2022W <- readxl::read_excel("cim2022deathcohortworkbook.xlsx", sheet = "25", skip = 9)
+imdStillBirth2022W <- read_excel("cim2022deathcohortworkbook.xlsx", sheet = "25", skip = 9)
 
 # ======================================= Data Pre-Processing =======================================
 

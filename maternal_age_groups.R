@@ -6,7 +6,7 @@ library(readxl)
 library(MetBrewer)
 
 # Load data from file 2023birthregistrations.xlsx from sheet "Table_10" and start read the data from the sixth row
-maternalAge <- readxl::read_excel("2023birthregistrations.xlsx", sheet = "Table_10", skip = 5)
+maternalAge <- read_excel("2023birthregistrations.xlsx", sheet = "Table_10", skip = 5)
 
 # ======================================= Data Pre-Processing =======================================
 
