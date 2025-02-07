@@ -2,7 +2,7 @@
 
 ## Analysis of birth trends in England and Wales: <br>Associations with maternal age and levels of deprivation
 
-![Line chart](https://github.com/user-attachments/assets/ee747311-3147-4f7b-9bd5-cb1ecbeb3bcd)
+![Line chart](https://github.com/user-attachments/assets/b2df06a5-72a1-4645-ab5d-df543ee16aa6)
 
 The birth rates in England and Wales have experienced a substantial drop over the past decade, with around 100.000 fewer live births in 2023 compared to 2014. The current figure is the lowest number of live births on record since 1977.[^1]
 
@@ -39,8 +39,8 @@ for macOS version 2024.12.0+467. Besides the R base packages, the following pack
 
 **1. Relationship between maternal age and the number of live births**
 
-![Cycle plot](https://github.com/user-attachments/assets/dfe21850-0d80-420c-a330-3c59800a1c9f)
-Downward trends were observed in live births happening from mothers aged below 30 years. For older mothers, no major changes observed in terms of birth counts.
+![Cycle plot](https://github.com/user-attachments/assets/984fa7b2-0fd8-4697-9f59-e533fbdf6a93)
+The green horizontal line represents the average number of live births for each maternal age group. Downward trends were observed in live births happening from mothers aged below 30 years. For older mothers, no major changes observed in terms of birth counts.
 <br/>
 <br/>
 
