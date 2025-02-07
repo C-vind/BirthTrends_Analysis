@@ -73,7 +73,7 @@ ggplot(maternalAge, aes(Year, `Number of live births`)) +
 	facet_grid(~`Age group (years)`) +
 	labs(
 		title = "Number of live births (2014-2023) by age group of mothers",
-		x = "Age Group (years)",
+		x = "Year",
 		y = "Number of Live Births"
 	) +
 	scale_x_continuous(breaks = seq(2014, 2023, 9)) +
